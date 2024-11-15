@@ -8,18 +8,18 @@ export default siteConfig({
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
-  // basic site info (required)
+  // basic site info (required)  https://notion.mynxg.eu.org/
   name: '所遇所思',
   domain: 'https://imnxg.notion.site/blog-30312615441546d5b8e89b3248342210',
   author: 'keney',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'keney notes',
 
   // social usernames (optional)
-  twitter: 'imnxg',
-  github: 'imnxg',
-  linkedin: 'fisch2',
+  twitter: 'mynxg',
+  github: 'keneyVim',
+  //linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -50,16 +50,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  //navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '13f8b8600cef8029861feb43caf571aa'
+    },
+    {
+      title: 'Contact',
+      pageId: '13f8b8600cef80c8bc23c00d01d4fea6'
+    }
+  ]
 })
