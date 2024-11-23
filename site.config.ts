@@ -17,8 +17,8 @@ export default siteConfig({
   description: 'keney notes',
 
   // social usernames (optional)
-  twitter: 'mynxg',
-  github: 'keneyVim',
+  twitter: 'keneyVim',
+  github: 'mynxg',
   //linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
